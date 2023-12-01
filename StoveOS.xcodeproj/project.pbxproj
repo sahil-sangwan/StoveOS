@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4B5A45B2B19929E005CDF24 /* StoveOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5A45A2B19929E005CDF24 /* StoveOSApp.swift */; };
+		B4B5A45D2B19929E005CDF24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5A45C2B19929E005CDF24 /* ContentView.swift */; };
+		B4B5A45F2B19929E005CDF24 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5A45E2B19929E005CDF24 /* Item.swift */; };
+		B4B5A4612B19929F005CDF24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B5A4602B19929F005CDF24 /* Assets.xcassets */; };
+		B4B5A4652B19929F005CDF24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B5A4642B19929F005CDF24 /* Preview Assets.xcassets */; };
+		B4B5A4702B19929F005CDF24 /* StoveOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5A46F2B19929F005CDF24 /* StoveOSTests.swift */; };
+		B4B5A47A2B19929F005CDF24 /* StoveOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5A4792B19929F005CDF24 /* StoveOSUITests.swift */; };
+		B4B5A47C2B19929F005CDF24 /* StoveOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5A47B2B19929F005CDF24 /* StoveOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4B5A46C2B19929F005CDF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4B5A44F2B19929E005CDF24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4B5A4562B19929E005CDF24;
+			remoteInfo = StoveOS;
+		};
+		B4B5A4762B19929F005CDF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4B5A44F2B19929E005CDF24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4B5A4562B19929E005CDF24;
+			remoteInfo = StoveOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4B5A4572B19929E005CDF24 /* StoveOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoveOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B5A45A2B19929E005CDF24 /* StoveOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoveOSApp.swift; sourceTree = "<group>"; };
+		B4B5A45C2B19929E005CDF24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4B5A45E2B19929E005CDF24 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B4B5A4602B19929F005CDF24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4B5A4622B19929F005CDF24 /* StoveOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StoveOS.entitlements; sourceTree = "<group>"; };
+		B4B5A4642B19929F005CDF24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4B5A4662B19929F005CDF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4B5A46B2B19929F005CDF24 /* StoveOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoveOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B5A46F2B19929F005CDF24 /* StoveOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoveOSTests.swift; sourceTree = "<group>"; };
+		B4B5A4752B19929F005CDF24 /* StoveOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoveOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B5A4792B19929F005CDF24 /* StoveOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoveOSUITests.swift; sourceTree = "<group>"; };
+		B4B5A47B2B19929F005CDF24 /* StoveOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoveOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4B5A4542B19929E005CDF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B5A4682B19929F005CDF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B5A4722B19929F005CDF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4B5A44E2B19929E005CDF24 = {
+			isa = PBXGroup;
+			children = (
+				B4B5A4592B19929E005CDF24 /* StoveOS */,
+				B4B5A46E2B19929F005CDF24 /* StoveOSTests */,
+				B4B5A4782B19929F005CDF24 /* StoveOSUITests */,
+				B4B5A4582B19929E005CDF24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4B5A4582B19929E005CDF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4B5A4572B19929E005CDF24 /* StoveOS.app */,
+				B4B5A46B2B19929F005CDF24 /* StoveOSTests.xctest */,
+				B4B5A4752B19929F005CDF24 /* StoveOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4B5A4592B19929E005CDF24 /* StoveOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4B5A45A2B19929E005CDF24 /* StoveOSApp.swift */,
+				B4B5A45C2B19929E005CDF24 /* ContentView.swift */,
+				B4B5A45E2B19929E005CDF24 /* Item.swift */,
+				B4B5A4602B19929F005CDF24 /* Assets.xcassets */,
+				B4B5A4622B19929F005CDF24 /* StoveOS.entitlements */,
+				B4B5A4662B19929F005CDF24 /* Info.plist */,
+				B4B5A4632B19929F005CDF24 /* Preview Content */,
+			);
+			path = StoveOS;
+			sourceTree = "<group>";
+		};
+		B4B5A4632B19929F005CDF24 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B4B5A4642B19929F005CDF24 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4B5A46E2B19929F005CDF24 /* StoveOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4B5A46F2B19929F005CDF24 /* StoveOSTests.swift */,
+			);
+			path = StoveOSTests;
+			sourceTree = "<group>";
+		};
+		B4B5A4782B19929F005CDF24 /* StoveOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4B5A4792B19929F005CDF24 /* StoveOSUITests.swift */,
+				B4B5A47B2B19929F005CDF24 /* StoveOSUITestsLaunchTests.swift */,
+			);
+			path = StoveOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4B5A4562B19929E005CDF24 /* StoveOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4B5A47F2B19929F005CDF24 /* Build configuration list for PBXNativeTarget "StoveOS" */;
+			buildPhases = (
+				B4B5A4532B19929E005CDF24 /* Sources */,
+				B4B5A4542B19929E005CDF24 /* Frameworks */,
+				B4B5A4552B19929E005CDF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoveOS;
+			productName = StoveOS;
+			productReference = B4B5A4572B19929E005CDF24 /* StoveOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4B5A46A2B19929F005CDF24 /* StoveOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4B5A4822B19929F005CDF24 /* Build configuration list for PBXNativeTarget "StoveOSTests" */;
+			buildPhases = (
+				B4B5A4672B19929F005CDF24 /* Sources */,
+				B4B5A4682B19929F005CDF24 /* Frameworks */,
+				B4B5A4692B19929F005CDF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4B5A46D2B19929F005CDF24 /* PBXTargetDependency */,
+			);
+			name = StoveOSTests;
+			productName = StoveOSTests;
+			productReference = B4B5A46B2B19929F005CDF24 /* StoveOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4B5A4742B19929F005CDF24 /* StoveOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4B5A4852B19929F005CDF24 /* Build configuration list for PBXNativeTarget "StoveOSUITests" */;
+			buildPhases = (
+				B4B5A4712B19929F005CDF24 /* Sources */,
+				B4B5A4722B19929F005CDF24 /* Frameworks */,
+				B4B5A4732B19929F005CDF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4B5A4772B19929F005CDF24 /* PBXTargetDependency */,
+			);
+			name = StoveOSUITests;
+			productName = StoveOSUITests;
+			productReference = B4B5A4752B19929F005CDF24 /* StoveOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4B5A44F2B19929E005CDF24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B4B5A4562B19929E005CDF24 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					B4B5A46A2B19929F005CDF24 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B4B5A4562B19929E005CDF24;
+					};
+					B4B5A4742B19929F005CDF24 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B4B5A4562B19929E005CDF24;
+					};
+				};
+			};
+			buildConfigurationList = B4B5A4522B19929E005CDF24 /* Build configuration list for PBXProject "StoveOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4B5A44E2B19929E005CDF24;
+			productRefGroup = B4B5A4582B19929E005CDF24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4B5A4562B19929E005CDF24 /* StoveOS */,
+				B4B5A46A2B19929F005CDF24 /* StoveOSTests */,
+				B4B5A4742B19929F005CDF24 /* StoveOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4B5A4552B19929E005CDF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B5A4652B19929F005CDF24 /* Preview Assets.xcassets in Resources */,
+				B4B5A4612B19929F005CDF24 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B5A4692B19929F005CDF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B5A4732B19929F005CDF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4B5A4532B19929E005CDF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B5A45D2B19929E005CDF24 /* ContentView.swift in Sources */,
+				B4B5A45F2B19929E005CDF24 /* Item.swift in Sources */,
+				B4B5A45B2B19929E005CDF24 /* StoveOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B5A4672B19929F005CDF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B5A4702B19929F005CDF24 /* StoveOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B5A4712B19929F005CDF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B5A47C2B19929F005CDF24 /* StoveOSUITestsLaunchTests.swift in Sources */,
+				B4B5A47A2B19929F005CDF24 /* StoveOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4B5A46D2B19929F005CDF24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4B5A4562B19929E005CDF24 /* StoveOS */;
+			targetProxy = B4B5A46C2B19929F005CDF24 /* PBXContainerItemProxy */;
+		};
+		B4B5A4772B19929F005CDF24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4B5A4562B19929E005CDF24 /* StoveOS */;
+			targetProxy = B4B5A4762B19929F005CDF24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B4B5A47D2B19929F005CDF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4B5A47E2B19929F005CDF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B4B5A4802B19929F005CDF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StoveOS/StoveOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StoveOS/Preview Content\"";
+				DEVELOPMENT_TEAM = AJ7B2B8776;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StoveOS/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Induction.StoveOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4B5A4812B19929F005CDF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StoveOS/StoveOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StoveOS/Preview Content\"";
+				DEVELOPMENT_TEAM = AJ7B2B8776;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StoveOS/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Induction.StoveOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4B5A4832B19929F005CDF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ7B2B8776;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Induction.StoveOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoveOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StoveOS";
+			};
+			name = Debug;
+		};
+		B4B5A4842B19929F005CDF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ7B2B8776;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Induction.StoveOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoveOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StoveOS";
+			};
+			name = Release;
+		};
+		B4B5A4862B19929F005CDF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ7B2B8776;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Induction.StoveOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StoveOS;
+			};
+			name = Debug;
+		};
+		B4B5A4872B19929F005CDF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ7B2B8776;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Induction.StoveOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StoveOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4B5A4522B19929E005CDF24 /* Build configuration list for PBXProject "StoveOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B5A47D2B19929F005CDF24 /* Debug */,
+				B4B5A47E2B19929F005CDF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4B5A47F2B19929F005CDF24 /* Build configuration list for PBXNativeTarget "StoveOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B5A4802B19929F005CDF24 /* Debug */,
+				B4B5A4812B19929F005CDF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4B5A4822B19929F005CDF24 /* Build configuration list for PBXNativeTarget "StoveOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B5A4832B19929F005CDF24 /* Debug */,
+				B4B5A4842B19929F005CDF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4B5A4852B19929F005CDF24 /* Build configuration list for PBXNativeTarget "StoveOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B5A4862B19929F005CDF24 /* Debug */,
+				B4B5A4872B19929F005CDF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4B5A44F2B19929E005CDF24 /* Project object */;
+}
